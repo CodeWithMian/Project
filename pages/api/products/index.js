@@ -4,7 +4,7 @@ import { getProducts, newProduct } from "@/backend/controllers/productController
 // import Head from "@/app/head";
 import onError from '@/backend/middlewares/errors'
 
-const router = createRouter({onError});
+const router = createRouter();
 
 dbConnect();
 // Head();
